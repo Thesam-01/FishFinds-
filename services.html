@@ -3,31 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNWGafkMBWgHs8fUzi0h_dgwhw5n367y56o49p56d5ag&s=10">FishFinds Services </title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: none
+        }
+        th, td{
+            border: 1px solid blue;
+            padding: 10px
+        }
+    </style>
+    <title>🐟FishFinds Services </title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact us.html">Contact Us</a>
+        </nav>
+    </header> 
     <section>
         <h4>Our Services</h4>
-        <p>At Fish Finds, we provide a variety of fish to suit different needs and preferences. Explore our available options and find the perfect fish for cooking, recreation, aquarium display and more...</p>
+        <p>At FishFinds, we provide a variety of fish to suit different needs and preferences. Explore our available options and find the perfect fish for cooking, recreation, aquarium display and more...</p>
     </section>
     <br>
     <div>
          <h5>Aquarium Fish</h5>
          <p>Fish commonly kept for display or aquariums. </p>
          <p><b>Examples:</b></p>
-         <br>
          <ul classname="aqfish">
             <li>Goldfish</li>
             <li>Guppy</li>
             <li>Angelfish</li>
             <li>Betta</li>
          </ul>
+    <br>
     </div>
     <div>
         <h5>Food Fish</h5>
         <p>Fish commonly used for cooking</p>
         <p>Examples</p>
-        <br>
         <ul classname="foodfish">
             <li>Tilapia</li>
             <li>Catfish</li>
@@ -39,19 +56,17 @@
         <table>
             <thead>
                 <tr>
-                    <th>Services</th>
-                    <th>Fish</th>
+                    <th colspan="2">Services & Fish</th>
                     <th>Purpose</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Recreation</td>
+                    <td rowspan="2">Recreation</td>
                     <td>Goldfish</td>
                     <td>Aquarium</td>
                 </tr>
                 <tr>
-                    <td>Recreation</td>
                     <td>Guppy</td>
                     <td>Aquarium</td>
                 </tr>
